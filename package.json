@@ -1,0 +1,27 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogvlad91/todo-api.git"
+  },
+  "author": "Rogov Vladislav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogvlad91/todo-api/issues"
+  },
+  "homepage": "https://github.com/rogvlad91/todo-api#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "lowdb": "^3.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

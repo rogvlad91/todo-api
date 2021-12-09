@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "text": "Eat pelmeny",
+        "done": true
+    }, 
+    {
+        "id": "2",
+        "text": "Sleep 20 hours",
+        "done": true
+    }, 
+    {
+        "id": "3",
+        "text": "Watch Drive",
+        "done": false
+    }, 
+    {
+        "id": "4",
+        "text": "Work at zavod",
+        "done": false
+    }
+]
