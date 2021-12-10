@@ -10,9 +10,9 @@ router.get('/', async (req, res, next) => {
 
         if(db.data.length) {
             ///sending data 
-            res.send(200).json(db.data);
+            res.status(200).json(db.data);
         }else{
-            res.send(200).json({message: 'There is no tasks'})
+            res.status(200).json({message: 'There is no tasks'})
         }
     }
     catch (err){
